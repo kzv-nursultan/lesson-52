@@ -1,11 +1,20 @@
+import { Component } from 'react';
 import './App.css';
+import Circle from './Circles/Circles';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+
+
+class App extends Component {
+  state={
+
+  }
+  render() {
+    return (
+      <div className="App">
+        <Circle/>
+      </div>
+    );
+  }
 }
 
 export default App;
